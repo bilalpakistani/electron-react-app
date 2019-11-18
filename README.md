@@ -19,8 +19,8 @@ You can install electron builder globally if you want.
 
 `npm install -g electron-builder`
 
-Build
-
+## Build
+```
 Commands:
   electron-builder build                    Build                      [default]
   electron-builder install-app-deps         Install app deps
@@ -66,7 +66,7 @@ Examples:
   -c.extraMetadata.foo=bar                  `bar`
   electron-builder                          configure unicode options for NSIS
   --config.nsis.unicode=false
-
+```
 See https://electron.build for more documentation.
 
 ### `yarn start`
