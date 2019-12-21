@@ -41,7 +41,7 @@
     "build-mac": "electron-builder --mac"
   },
   "build": {
-    "appId": "com.bearshares.bearwallet",
+    "appId": "com.bearshares.electronapp",
     "files": [
       "build/**/*",
       "node_modules/**/*"
